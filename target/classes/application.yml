@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: BootTask1
+
+tasktracker:
+  max-tasks: 50
+  default-page-size: 10
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+info:
+  app:
+    name: Task Tracker
+    description: Simple in-memory task API
+    version: 1.0.0
+
+logging:
+  level:
+    root: INFO

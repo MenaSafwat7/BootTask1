@@ -1,0 +1,6 @@
+tasktracker:
+  max-tasks: 20
+
+logging:
+  level:
+    org.example.boottask1: DEBUG
